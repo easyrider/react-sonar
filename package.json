@@ -1,0 +1,18 @@
+{
+  "name": "react-sonar",
+  "version": "0.0.2",
+  "description": "Detects an element size changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactjs",
+    "rwd"
+  ],
+  "dependencies": {
+    "element-resize-event": "^2.0.0"
+  },
+  "author": "Adam Dymowski",
+  "license": "ISC"
+}
