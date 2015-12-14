@@ -1,7 +1,7 @@
 React Sonar
 ===========================
 
-## This is inspired by: https://github.com/KyleAMathews/react-sonar
+## This is inspired by: https://github.com/KyleAMathews/react-page-width
 
 React component that detects when an wrapped element resizes
 
