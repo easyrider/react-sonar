@@ -10,4 +10,8 @@ React component that detects when an wrapped element resizes
 
 ## Usage
 ```javascript
-var componentWidthMixin = require('react-sonar');
+var ReactSonar = require('react-sonar');
+
+<ReactSonar handleResize={this.handleResize}>
+...
+</ReactSonar>
