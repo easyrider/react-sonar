@@ -1,6 +1,6 @@
 {
   "name": "react-sonar",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Detects an element size changes",
   "main": "index.js",
   "scripts": {

@@ -1,8 +1,8 @@
-import React from 'react';
-import Dom from 'react-dom';
-import elementResizeEvent from 'element-resize-event';
+var React = require('react');
+var Dom = require('react-dom');
+var elementResizeEvent = require('element-resize-event');
 
-export default React.createClass({
+module.exports = React.createClass({
 
   getInitialState: function() {
     if (this.props.initialComponentWidth !== undefined && this.props.initialComponentWidth !== null) {
@@ -44,8 +44,10 @@ export default React.createClass({
 
   render: function() {
 
-    return (
-        <div>{this.props.children}</div>
-    )
+    return React.createElement(
+        "div",
+        null,
+        this.props.children
+    );
   }
 });
